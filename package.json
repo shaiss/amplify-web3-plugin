@@ -1,0 +1,25 @@
+{
+  "name": "amplify-web3-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:basic": "jest --testPathPattern='(basic)'"
+  },
+  "dependencies": {
+    "web3": "^1.8.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "author": "Shai Perednik",
+  "license": "MIT",
+  "keywords": [],
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "mjs"
+    ]
+  },
+  "description": ""
+}
